@@ -1,0 +1,32 @@
+Linear regression is a statistical method used to model the relationship between
+a dependent variable(Y) (the outcome you're trying to predict)
+and one or more independent variables(X) (the factors influencing that outcome).
+The goal is to find the best-fitting straight line that describes this relationship.
+
+Key Concepts
+- **Equation Form: The model is typically written as:   y = mx + b
+(for simple linear regression), where:
+  ( y ) is the dependent variable (what you're predicting),
+  ( x ) is the independent variable,
+  ( m ) is the slope of the line (how much y  changes per unit increase in  x )
+  ( b ) is the intercept (the value of  y  when  x = 0 ).
+
+Assumptions:
+  1. Linearity – The relationship between the variables is linear.
+  2. Independence – Observations are independent of each other.
+  3. Homoscedasticity – The variance of errors is consistent across all values of ( x ).
+  4. Normality – The residuals (differences between predictions and actual values)
+  should be normally distributed.
+
+How It Works
+1. You collect data points (pairs of  x  and  y ).
+2. The algorithm finds the line that minimizes the error (the difference
+between actual values and predicted values). This is done using the least squares method,
+which minimizes the sum of squared residuals.
+3. You can then use the equation to predict  y  values for new  x  inputs.
+
+Applications
+- Predicting house prices based on square footage
+- Estimating sales revenue based on advertising spend
+- Forecasting stock prices based on past trends
+
