@@ -4,7 +4,7 @@ and one or more independent variables(X) (the factors influencing that outcome).
 The goal is to find the best-fitting straight line that describes this relationship.
 
 Key Concepts
-- **Equation Form: The model is typically written as:   y = mx + b
+- Equation Form: The model is typically written as:   y = mx + b
 (for simple linear regression), where:
   ( y ) is the dependent variable (what you're predicting),
   ( x ) is the independent variable,
